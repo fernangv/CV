@@ -1,0 +1,43 @@
+h2.title.is-4 {
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+h2.title.is-4 {
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+.container {
+    font-family: 'Arial', sans-serif;
+    background-color: white; 
+    color: #000; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black; 
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 0 0 50%; 
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.column.is-one-third {
+    flex: 0 0 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column.is-one-third .title.is-4 {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    margin-top: 10px;
+}
